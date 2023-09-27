@@ -35,6 +35,8 @@ git clone -b luci-smartdns-dev https://github.com/xiaorouji/openwrt-passwall.git
 # git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/firkerword/smartdns.git package/smartdns
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/firkerword/smartdns.git package/smartdns
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
